@@ -1,0 +1,203 @@
+#page1{ background-image: url(hero_720.jpg);
+         width: 100%;
+         height: 80vw;
+         background-repeat:no-repeat ;
+         background-position: top;
+         background-size: 100%;
+}
+    
+
+    
+
+.navlogo{ display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+       
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+   
+}
+.websitelogo{
+        padding-left: 25px;
+        font-size: 25px;
+        align-items: end;
+    }
+#h1page1{
+    font-size: 30px;
+}
+#h2page1{
+    font-size: 25px;
+}
+.nav {
+ display: flex;
+ flex-direction: row;
+justify-content: space-aound;
+font-size: 20px;
+}
+
+button{
+    height: 30px;
+    background-color:orangered;
+    border-radius: 5px;
+    font-size: 20px;
+    width:100 ;
+}
+button:hover{
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 15px;
+}
+
+
+.body2 {
+    
+   
+    display: flex;
+    justify-content: center;
+   text-align: center;
+    
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+ }
+
+.div1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 4px;
+
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 4px;
+
+}
+.small{
+    flex-basis: 25%;
+    max-width: 65%;
+    height: 300px;
+    padding: 0 4px;
+}
+.large{
+    flex-basis: 75%;
+    max-width: 65%;
+    height: 300px;
+    padding: 0 4px;
+}
+
+.mypp{
+    display: flex;
+   flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.p3body{
+    
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+#email{
+    height: 45px;
+    width: 450px;}
+    
+
+
+footer{
+    background-color: rgb(55, 58, 62);
+    height: 170px;
+    width: 100%;
+   
+    color: rgb(135, 122, 122);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+  
+   
+}
+.body3{
+    
+   
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+
+#f2{background-color: #000;
+    height: 25px;
+
+}
+
+
+#button2{
+
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+}
+.body4{
+ 
+    text-align: center;
+}
+
+@media ( max-width:700px){
+    .allbody{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .mypp{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div{
+        margin: 10px;
+    }
+    .div2{
+        margin: 10px;
+    }
+    .p2h1{
+        margin: 10px;
+    }
+    .page3{
+        justify-content:column;
+    }
+    .small{
+        flex-basis: 15%;
+        max-width: 400px;
+        height: 300px;
+        padding: 0 4px;
+    }
+    .large{
+        flex-basis: 75%;
+        max-width: 65%;
+        height: 300px;
+        padding: 0 4px;}
+    #button2{
+
+            width: 250px;
+            height: 50px;
+            font-size: 25px;
+            margin-top: 20px;
+            
+           
+        }
+        
+}
